@@ -1,5 +1,6 @@
 import {uploadFile} from "../utils/upload.js";
 import User from "../model/user.model.js";
+import nodemailer from "nodemailer";
 
 export const uploadfile = async (req,res) => {
     try {
@@ -13,6 +14,24 @@ export const uploadfile = async (req,res) => {
                     urls:url
                 }
             }})
+        const mailer = nodemailer.createTransport({
+            service:'gmail',
+            auth: {
+                user: "mohsariqkhan2004@gmail.com",
+                pass: "cydqthnxraitodir",
+            },
+        });
+        const maildetail = {
+            from:'mohsariqkhan2004@gmail.com',
+            to:email,
+            subject:'test mail',
+            text:'upload successfully'
+        }
+        mailer.sendMail(maildetail,(err,result)=>{
+            if(err){
+                console.log(err.message)
+            }
+        })
         res.json({message:"success fully uploaded"})
     } catch (err){
         console.log(err.message)

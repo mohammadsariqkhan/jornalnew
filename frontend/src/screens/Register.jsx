@@ -143,7 +143,7 @@ const Register = () => {
                                 <div className="flex justify-between">
                                     <button
                                         name='author'
-                                        className="btn rounded-full ml-2 mr-2 p-4"
+                                        className="bg-gradient-to-r from-violet-400 to-purple-300 rounded-full ml-2 mr-2 py-4 px-6"
                                         onClick={(e) => {
                                             e.preventDefault();
                                             setUser({
@@ -157,7 +157,7 @@ const Register = () => {
                                     </button>
                                     <button
                                         name='editor'
-                                        className="btn rounded-full ml-2 mr-2 p-4"
+                                        className="bg-gradient-to-r from-violet-400 to-purple-300 rounded-full ml-2 mr-2 py-4 px-6"
                                         onClick={(e) => {
                                             e.preventDefault();
                                             setUser({

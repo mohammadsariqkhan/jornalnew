@@ -18,14 +18,14 @@ export const uploadfile = async (req,res) => {
             service:'gmail',
             auth: {
                 user: "mohsariqkhan2004@gmail.com",
-                pass: "cydqthnxraitodir",
+                pass: process.env.MAIL_PASS,
             },
         });
         const maildetail = {
             from:'mohsariqkhan2004@gmail.com',
             to:email,
-            subject:'test mail',
-            text:'upload successfully'
+            subject:'Mail for uploading file successfully',
+            text:'Thank you for uploading your file on RJSC'
         }
         mailer.sendMail(maildetail,(err,result)=>{
             if(err){

@@ -8,10 +8,10 @@ function Navbar(){
     return(
         <>
             <div className="flex items-center justify-between px-8 py-4">
-                <div className="cursor-pointer h-10 w-16 transition-all duration-300 ease-in-out hover:scale-105 bg-white hover:bg-gray-100 text-gray-800 rounded shadow-lg" onClick={() => {
+                <div className="cursor-pointer h-10 w-16 transition-all duration-300 ease-in-out hover:scale-105 bg-white hover:bg-gray-100 text-gray-800 rounded shadow-lg h-fit" onClick={() => {
                     navigation('/')
                 }}>
-                    <img className="object-cover" src="/rjsc.svg" alt="loading..."/>
+                    <img className="" src="/RJSC_20240402_145202_0000.png" alt="loading..."/>
                 </div>
 
                 <div className="flex gap-3 text">

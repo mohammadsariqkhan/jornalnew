@@ -28,14 +28,14 @@ function Volume(){
                     {item.role === 'author' && <motion.div  initial={{ opacity: 0, x: -100 }}
                                                             whileInView={{ opacity: 1, x: 0 }}
                                                             transition={{ duration: 2 }} key={idx} className="h-52 rounded-xl shadow-xl p-6 flex flex-col justify-between hover:scale-105 background ease-in-out mt-6 bg-white">
-                        <h1 className="text-2xl font-bold">Title: {item.file_urlAndTitle[item.file_urlAndTitle.length-1].title}</h1>
+                        <h1 className="lg:text-2xl font-bold">Title: {item.file_urlAndTitle[item.file_urlAndTitle.length-1].title}</h1>
                         <p className="text-blue-800 cursor-pointer" onClick={()=>{
                             navigate('/payment')
                         }}>{
                             item.file_urlAndTitle[item.file_urlAndTitle.length-1].urls}</p>
-                        <div className='flex justify-between items-center text-lg'>
-                            <p className="font-semibold">Name: {item.username}</p>
-                            <p className="font-semibold">email: {item.email}</p>
+                        <div className='flex flex-col lg:flex-row lg:justify-between lg:items-center lg:text-lg'>
+                            <p className="lg:font-semibold">Name: {item.username}</p>
+                            <p className="lg:font-semibold">email: {item.email}</p>
                         </div>
                     </motion.div>}
                 </div>

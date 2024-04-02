@@ -13,7 +13,7 @@ function Main(){
             <hr className="border-gray-400"/>
             <EditorSection EditorTitle='Editor in Cheif' EditorName='Prof.(Dr).Krishan Kumar Patel' Gmail='krishanpatel4@gmail.com' Mobile='Mob:- +919907851754, +918770468630' />
             <hr className="border-gray-400"/>
-            <EditorSection EditorTitle='Editors' EditorName='Dr.Santosh Yadav, USA' />
+            <EditorSection EditorTitle='Editors' EditorName='Cheif Scientist Dr.Santosh Yadav, Philadelphia, Pennsylvania, United States' Gmail="santoshkonkuk@gmail.com" />
             <EditorSection EditorName='Prof.(Dr.)Sudhanshu Mallick, IIT Bombay, India' Gmail='mallick@iitb.ac.in'/>
             <hr className="border-gray-400"/>
             <EditorSection EditorName='Prof.(Dr.)Parag Bhargav, IIT Bombay, India'/>

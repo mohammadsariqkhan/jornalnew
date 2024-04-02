@@ -11,13 +11,13 @@ function Banner(){
             {/*    <img src="https://media.springernature.com/w158/springer-static/cover-hires/journal/43615?as=webp" alt=""/>*/}
             {/*</div>*/}
             <div className="hidden lg:block">
-                <motion.div
-                            initial={{ opacity: 0, x: -100 }} animate={{opacity: 1, x: 0 }} transition={{ delay: 1, duration: 1 }}
+                <div
+
                             className="border-2 border-black h-fit mt-7 ml-[-5rem] rounded-full bg-black">
-                    <div className='ml-[30rem]'>
+                    <motion.div initial={{ opacity: 1, x: -500 }} animate={{opacity: 1, x: 0 }} transition={{ duration: 2 }} className='ml-[30rem]'>
                     <img className='rounded-full w-48' src="/RJSC_20240402_145202_0000.png" alt="loading"/>
-                    </div>
-                </motion.div>
+                    </motion.div>
+                </div>
             </div>
 
             <div className="max-w-6xl mx-auto p-6 flex gap-5 items-center">

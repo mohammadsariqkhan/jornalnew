@@ -26,7 +26,11 @@ function Main(){
             <hr className="border-gray-400"/>
             <EditorSection EditorName='Many more...'/>
                 <hr className="border-gray-400"/>
-                {/*<EditorSection EditorTitle='Backend support' EditorName='Mohammad Sariq Khan' Gmail='mohsariqkhan2004@gmail.com' Mobile='Mob:- +917987888025'/>*/}
+                <EditorSection EditorTitle='Backend support' EditorName='Mohammad Sariq Khan' Gmail='mohsariqkhan2004@gmail.com' Mobile='Mob:- +917987888025'/>
+            <hr className="border-gray-400"/>
+            <EditorSection EditorName='Abhishek Lodha' Gmail='abhisheklodha512@gmail.com' Mobile='Mob:- +919301867465'/>
+            <hr className="border-gray-400"/>
+            <EditorSection EditorTitle='Neeraj Hariyale' EditorName='Mohammad Sariq Khan' Gmail='hariyaleneeraj31@gmail.com' Mobile='Mob:- +917999873846'/>
         </motion.div>
     )
 }

@@ -9,7 +9,7 @@ import Volume from "../components/Volume.jsx";
 
 function Home() {
     return(
-        <section className="font-neue">
+        <section className="font-poppins">
             <div className="max-w-6xl mx-auto">
                 <Navbar/>
             </div>

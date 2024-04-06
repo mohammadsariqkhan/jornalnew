@@ -9,6 +9,7 @@ import Editor from "./screens/Editor.jsx";
 import EditorAuth from "./components/EditorAuth.jsx";
 import Payment from "./screens/Payment.jsx";
 import Profile from "./screens/Profile.jsx";
+import ErrorPage from './components/ErrorPage.jsx';
 
 
 function App() {
@@ -61,6 +62,12 @@ function App() {
             <Editor></Editor>
           </EditorAuth>
           </AuthComponent>
+      )
+    },
+    {
+      path: '*',
+      element: (
+        <ErrorPage></ErrorPage>
       )
     }
     ])
